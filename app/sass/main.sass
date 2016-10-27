@@ -3,6 +3,203 @@
 @import "libs"
 @import "icomon"
 
+//********************************** Начало Стили главной страницы сайта
+#SecondSection
+  .hotel_room
+    text-align: center
+    padding-top: 90px
+    padding-bottom: 60px
+    background-repeat: no-repeat
+    background-position: center center
+    -webkit-background-size: cover
+    background-size: cover
+    .description
+      padding-bottom: 0
+    .caption
+      line-height: 35pt
+      &:after
+        content: ''
+        width: 60px
+        display: block
+        margin: auto
+        height: 1px
+        background-color: #ffffff
+        margin-top: 25px
+        margin-bottom: 22px
+
+    ul.components
+      max-width: 450px
+      margin: auto
+      display: block
+      text-align: left
+      padding-left: 50px
+      li
+        display: inline-block
+        width: 32%
+        font-family: ArimoBoldItalic
+        text-decoration: none
+        color: #ffffff
+        font-size: 10.5pt
+        position: relative
+        &:before
+          content: "\e918"
+          position: absolute
+          font-family: Icomoon
+          font-size: 17px
+          top: -3px
+          left: -25px
+
+    .price
+      color: #ffffff
+      font-size: 21.8pt
+      padding: 0px
+      border: solid 2px #D5C59C
+      display: block
+      width: 160px
+      border-radius: 3px
+      margin: auto
+      margin-top: 25px
+      margin-bottom: 10px
+      position: relative
+      span
+        font-size: 21px
+      &:before
+        content: ''
+        width: 84px
+        height: 2px
+        border-radius: 2px 0 0 2px
+        background-color: #d5c59c
+        position: absolute
+        left: -84px
+        top: 50%
+      &:after
+        content: ''
+        width: 84px
+        height: 2px
+        border-radius: 2px 0 0 2px
+        position: absolute
+        background-color: #d5c59c
+        right: -84px
+        top: 50%
+.content_index
+  text-align: center
+  padding-left: 15px
+  padding-right: 15px
+  padding-bottom: 110px
+  position: relative
+  &:after
+    position: absolute
+    content: ''
+    left: 45%
+    bottom: 63px
+    width: 82px
+    height: 1px
+    background-color: #b3b3b3
+  h3
+    font-family: Arimo
+    margin-top: 70px
+    font-size: 30pt
+    color: #4d4d4d
+    margin-bottom: 20px
+  ul.list_hotel
+    max-width: 650px
+    display: block
+    margin: auto
+    margin-bottom: 50px
+    li
+      text-decoration: none
+      display: inline-block
+      width: 154px
+      .hotel
+        font-family: ArimoItalic
+        font-size: 10pt
+        color: #977f42
+        position: relative
+        &:before
+          content: ''
+          width: 16px
+          height: 1px
+          border-radius: 2px 0 0 2px
+          background-color: #666666
+          position: absolute
+          left: -20px
+          top: 50%
+        &:after
+          content: ''
+          width: 16px
+          height: 1px
+          border-radius: 2px 0 0 2px
+          position: absolute
+          background-color: #666666
+          right: -20px
+          top: 50%
+      a
+        display: block
+      .name
+        font-size: 16pt
+        color: #4d4d4d
+  .text_content
+    max-width: 650px
+    display: block
+    margin: auto
+    p
+      text-align: justify
+footer
+  padding: 40px 20px 10px
+  background-color: #e8e8e8
+  display: inline-block
+  .item_footer
+    background-color: #e8e8e8
+    float: left
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+    padding-left: 15px
+    padding-right: 15px
+    width: 33.3333%
+    font-family: Arimo
+    ul.list_soc_icon
+      margin-left: -4px
+      li
+        text-decoration: none
+        display: inline-block
+        font-size: 28px
+        padding-left: 4px
+        padding-right: 4px
+        a
+          color: #A7A6B3
+  .copy
+    font-size: 10pt
+    color: #808080
+  .card
+    color: #4d4d4d
+    font-size: 11pt
+    img
+      margin-top: 5px
+      max-width: 100%
+  .double_footer
+    background-color: #e8e8e8
+    border-top: 1px solid #ffffff
+    clear: left
+    margin-left: -20px
+    margin-right: -19px
+    position: relative
+    padding-left: 20px
+    padding-top: 10px
+    padding-right: 20px
+    .webest
+      font-size: 10pt
+      color: #a7a6b3
+      height: 22px
+      line-height: 22px
+      text-align: right
+      margin-right: 80px
+      span
+        font-size: 21px
+        color: #a7a6b3
+        vertical-align: middle
+
+//********************************** Конец Стили главной страницы сайта
 //Custom styles here
 
 @import "media"
