@@ -2,4 +2,226 @@
 @import "sass/vars"
 @import "sass/base"
 
-//First screen styles
+// START My Normalize
+ul,li,ol
+  padding: 0
+  margin: 0
+a
+  color: #000000
+  &:hover
+    text-decoration: none
+    color: #000000
+// END My Normalize
+
+body
+  min-width: 1280px
+header
+  width: 240px
+  padding-top: 33px
+  text-align: center
+  position: fixed
+  min-height: 800px !important
+  border: solid 1px #E6E6E6
+  .logo
+    display: inline-block
+    width: 100%
+    padding-bottom: 28px
+    border-bottom: solid 1px #E6E6E6
+  .header_tel
+    color: #000000
+    font-family: Arimo
+    padding: 20px 40px 25px 25px
+    border-bottom: solid 1px #E6E6E6
+    font-size: 9pt
+    .tel
+      font-size: 14.187pt
+  .nav
+    font-family: Arimo
+    font-size: 11pt
+    text-align: left
+    padding: 30px 0px 20px 0px
+    ul
+      padding-left: 19px
+      padding-right: 70px
+      li
+        list-style-type: none
+        display: inline-block
+        padding: 4px 8px
+        -webkit-transition: all ease .3s
+        -moz-transition: all ease .3s
+        -ms-transition: all ease .3s
+        -o-transition: all ease .3s
+        transition: all ease .3s
+        &:hover
+          background-color: #D5C59C
+    .first_nav
+      margin-bottom: 20px
+    .second_nav
+      padding-bottom: 10px
+      border-bottom: solid 1px #E6E6E6
+      a
+        color: #666666
+    .third_nav
+      padding-right: 0px
+      padding-top: 20px
+      a
+        color: #666666
+  address
+    font-style: normal
+    text-align: left
+    color: #977f42
+    font-size: 10pt
+    margin-bottom: 30px
+    padding-left: 29px
+  .action
+    text-align: left
+    padding-left: 20px
+    padding-right: 10px
+    bottom: 25px
+    position: absolute
+    .item_action
+      margin-bottom: 19px
+      .icon
+        display: block
+        float: left
+        color: #977f42
+        font-size: 27pt
+        margin-right: 5px
+        float: left
+        height: 50px
+      .text_action
+        display: block
+        font-size: 10pt
+        color: #000000
+        span
+          display: block
+          font-size: 12pt
+          color: #977f42
+
+
+.caption
+  font-family: Arimo
+  font-weight: bold
+  font-size: 36pt
+  color: #ffffff
+
+.description
+  font-family: Arimo
+  color: #ffffff
+  font-size: 18pt
+  padding-bottom: 23px
+
+.btn_link
+  text-transform: uppercase
+  color: #ffffff
+  background: #977F42 url("img/gradient-bg.png") repeat-x center
+  -o-background-size: 100% 100%
+  -moz-background-size: 100% 100%
+  -webkit-background-size: 100% 100%
+  background-size: 100% 100%
+  text-align: center
+  padding: 10px 20px
+  border-radius: 2px
+  display: inline-block
+  &:hover
+    color: #ffffff
+
+
+@media all and (min-width: 0px)
+  .btn_link
+    /* Opera */
+    background: #977F42 url("/img/gradient-bg.svg")
+    /* Recent browsers */
+    background-image: -webkit-gradient (linear,left top, right bottom, from(#977F42) ,to(#D5C49B))
+    background-image: -webkit-linear-gradient(left top, #977F42 ,#D5C49B)
+    background-image: -moz-linear-gradient(left top, #977F42, #D5C49B)
+    background-image: -o-linear-gradient(left top,#977F42,#D5C49B)
+    background-image: linear-gradient(left top,#977F42,#D5C49B)
+
+.content_site
+  margin-left: 240px
+
+.first_layout
+  position: relative
+  max-width: 100%
+  background-image: url("/img/1.jpg")
+  background-repeat: no-repeat
+  -webkit-background-size: cover
+  background-position: center center
+  background-size: cover
+  text-align: center
+  h1
+    margin-top: 0
+    font-size: 42pt
+    font-family: ArimoBold
+    color: #ffffff
+    line-height: 65px
+  .description
+    display: inline-block
+    max-width: 600px
+    margin-left: auto
+  .SecondSection
+    font-size: 15px
+    color: #ffffff
+    position: absolute
+    left: 48%
+    bottom: 61px
+
+
+.right_column
+  position: fixed
+  right: 0px
+  .item
+    height: calc(100%/3)
+    //border: solid 2px #337ab7
+    background-repeat: no-repeat
+    background-position: center center
+    -webkit-background-size: cover
+    background-size: cover
+    text-align: center
+    .caption
+      text-align: center
+      padding-top: 80px
+      padding-bottom: 25px
+      line-height: 40pt
+    .description
+      text-align: center
+      line-height: 25pt
+      max-width: 515px
+      display: block
+      margin: auto
+    .item_slider
+      background-repeat: no-repeat
+      background-position: center center
+      -webkit-background-size: cover
+      background-size: cover
+      width: 100%
+      height: 100%
+  .hall
+    background-image: url(/img/3.jpg)
+  .transfers
+    background-image: url(/img/4.jpg)
+  .slider
+    .owl-stage-outer
+      height: 100%
+      .owl-stage
+        height: 100%
+        .owl-item
+          height: 100%
+    .owl-nav
+      font-family: Icomoon
+      color: #ffffff
+      font-size: 25px
+      width: 100%
+      position: absolute
+      top: 40%
+      .owl-prev
+        left: 20px
+        position: absolute
+        &:before
+          content: "\e91e"
+      .owl-next
+        right: 20px
+        position: absolute
+        &:before
+          content: "\e91f"
