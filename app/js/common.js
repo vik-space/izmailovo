@@ -15,8 +15,8 @@ $(function() {
             // console.log(MarginRight);
             // console.log($(window).width());
         } else{
-            $(".index_content").css("margin-right", "416px");
-            $(".right_column").width(416);
+            $(".index_content").css("margin-right", "400px");
+            $(".right_column").width(401);
 
             // var WidthContent = $(window).width() - 240;
             // $(".index_content").css("margin-right", "0px");
@@ -63,7 +63,13 @@ $(function() {
         autoplayHoverPause :true,
         autoplaySpeed : 1500,
         navText : [,]
+    });
 
+    $(".SecondSection").mPageScroll2id({
+        // autoScrollSpeed: true,
+        scrollSpeed: 700,
+        scrollEasing: "easeInOutExpo",
+        scrollingEasing: "easeInOutCirc"
     });
 
 
