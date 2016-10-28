@@ -77,5 +77,57 @@ $(function() {
         scrollingEasing: "easeInOutCirc"
     });
 
+    var offset = $('.col-info').offset().top;
+    var topPadding = 124;
+
+    $(window).scroll(function() {
+        if ($(window).width() > 768) {
+            if($('.col-info').height() < $('.foto_room').height()) {
+                if ($(window).scrollTop() > $('.col-info').height() - $(window).height()) {
+                    $('.col-info').css("position", "fixed");
+                    var MargiLeft = ($(window).width() - 240) / 2;
+                    $('.col-info').css("margin-left", MargiLeft);
+                    $('.col-info').width(MargiLeft);
+                    if ($(window).scrollTop() + $(window).height() >= $('footer').offset().top) {
+                        $('.col-info').css("bottom", $(window).scrollTop() + $(window).height() - $('footer').offset().top + "px");
+                    } else {
+                        $('.col-info').css("bottom", "0");
+                    }
+                }
+                else {
+                    $('.col-info').css("margin-left", 0);
+                    $('.col-info').css("margin-top", "0px");
+                    $('.col-info').css("position", "static");
+                }
+            } else{
+                if ($(window).scrollTop() > $('.foto_room').height() - $(window).height()) {
+                    $('.foto_room').css("position", "fixed");
+                    $('.col-info').css("margin-left", ($(window).width() - 240) / 2);
+                    $('.foto_room').width(($(window).width() - 240) / 2);
+                    if ($(window).scrollTop() + $(window).height() >= $('footer').offset().top) {
+                        $('.foto_room').css("bottom", $(window).scrollTop() + $(window).height() - $('footer').offset().top + "px");
+                    } else {
+                        $('.foto_room').css("bottom", "0");
+                    }
+                    // $('.foto_room').css("position", "fixed");
+                    // var MargiLeft = ($(window).width() - 240) / 2;
+                    // $('.foto_room').css("margin-left", MargiLeft);
+                    // $('.foto_room').width(MargiLeft);
+                    // if ($(window).scrollTop() + $(window).height() >= $('footer').offset().top) {
+                    //     $('.foto_room').css("bottom", $(window).scrollTop() + $(window).height() - $('footer').offset().top + "px");
+                    // } else {
+                    //     $('.foto_room').css("bottom", "0");
+                    // }
+                }
+                else {
+                    $('.col-info').css("margin-left", 0);
+                    $('.foto_room').css("margin-left", 0);
+                    $('.foto_room').css("margin-top", "0px");
+                    $('.foto_room').css("position", "static");
+                }
+            }
+        }
+    });
+
 
 });
