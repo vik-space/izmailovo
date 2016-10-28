@@ -4,89 +4,91 @@
 @import "room"
 @import "icomon"
 @import "current_room"
+@import "conference_hall"
 
 //********************************** Начало Стили главной страницы сайта
 .hr
   display: block
   height: 1px
   background-color: #cccccc
-#SecondSection
-  .hotel_room
-    text-align: center
-    padding-top: 90px
-    padding-bottom: 60px
-    background-repeat: no-repeat
-    background-position: center center
-    -webkit-background-size: cover
-    background-size: cover
-    .description
-      padding-bottom: 0
-    .caption
-      line-height: 35pt
-      &:after
-        content: ''
-        width: 60px
-        display: block
-        margin: auto
-        height: 1px
-        background-color: #ffffff
-        margin-top: 25px
-        margin-bottom: 22px
-
-    ul.components
-      max-width: 450px
-      margin: auto
+//#SecondSection
+.hotel_room
+  text-align: center
+  padding-top: 90px
+  padding-bottom: 60px
+  background-repeat: no-repeat
+  background-position: center center
+  -webkit-background-size: cover
+  background-size: cover
+  .description
+    padding-bottom: 0
+  .caption
+    line-height: 35pt
+    &:after
+      content: ''
+      width: 60px
       display: block
-      text-align: left
-      padding-left: 50px
-      li
-        display: inline-block
-        width: 32%
-        font-family: ArimoBoldItalic
-        text-decoration: none
-        color: #ffffff
-        font-size: 10.5pt
-        position: relative
-        &:before
-          content: "\e918"
-          position: absolute
-          font-family: Icomoon
-          font-size: 17px
-          top: -3px
-          left: -25px
-
-    .price
-      color: #ffffff
-      font-size: 21.8pt
-      padding: 0px
-      border: solid 2px #D5C59C
-      display: block
-      width: 160px
-      border-radius: 3px
       margin: auto
+      height: 1px
+      background-color: #ffffff
       margin-top: 25px
-      margin-bottom: 10px
+      margin-bottom: 22px
+
+  ul.components
+    max-width: 450px
+    margin: auto
+    display: block
+    text-align: left
+    padding-left: 50px
+    li
+      display: inline-block
+      width: 32%
+      font-family: ArimoBoldItalic
+      text-decoration: none
+      color: #ffffff
+      font-size: 10.5pt
       position: relative
-      span
-        font-size: 21px
       &:before
-        content: ''
-        width: 84px
-        height: 2px
-        border-radius: 2px 0 0 2px
-        background-color: #d5c59c
+        content: "\e918"
         position: absolute
-        left: -84px
-        top: 50%
-      &:after
-        content: ''
-        width: 84px
-        height: 2px
-        border-radius: 2px 0 0 2px
-        position: absolute
-        background-color: #d5c59c
-        right: -84px
-        top: 50%
+        font-family: Icomoon
+        font-size: 17px
+        top: -3px
+        left: -25px
+
+  .price
+    color: #ffffff
+    font-family: ArimoBold
+    font-size: 21.8pt
+    padding: 0px
+    border: solid 2px #D5C59C
+    display: block
+    width: 160px
+    border-radius: 3px
+    margin: auto
+    margin-top: 25px
+    margin-bottom: 10px
+    position: relative
+    span
+      font-size: 21px
+    &:before
+      content: ''
+      width: 84px
+      height: 2px
+      border-radius: 2px 0 0 2px
+      background-color: #d5c59c
+      position: absolute
+      left: -84px
+      top: 50%
+    &:after
+      content: ''
+      width: 84px
+      height: 2px
+      border-radius: 2px 0 0 2px
+      position: absolute
+      background-color: #d5c59c
+      right: -84px
+      top: 50%
 .content_index
   text-align: center
   padding-left: 15px
