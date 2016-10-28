@@ -3,7 +3,10 @@ $(function() {
         if ($(window).height() > 800){
             $(".full_height").css("height", $(window).height());
         } else{
-            $(".full_height").css("height", "800px");
+            $(".full_height").css("height", "100vh");
+            $(".right_column .item .description").css("padding-top", "50px");
+            $(".right_column .item .description").css("padding-bottom", "8px");
+            $(".right_column .item .caption").css("display", "none");
         }
     }
     function indexContentMargin() {
@@ -28,10 +31,12 @@ $(function() {
 
     function margiTopH1FirstLayot() {
         var MarginTopH1 = $(window).height() / 2 - 130;
-        if ($(window).height() > 990){
+        if ($(window).height() > 800){
             $(".first_layout h1").css("padding-top", MarginTopH1);
         } else{
-            $(".first_layout h1").css("padding-top", "300px");
+            if($(window).height() < 800) {
+                $(".first_layout h1").css("padding-top", "170px");
+            }
         }
     }
     function HiddenItemAction() {
