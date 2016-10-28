@@ -109,15 +109,6 @@ $(function() {
                     } else {
                         $('.foto_room').css("bottom", "0");
                     }
-                    // $('.foto_room').css("position", "fixed");
-                    // var MargiLeft = ($(window).width() - 240) / 2;
-                    // $('.foto_room').css("margin-left", MargiLeft);
-                    // $('.foto_room').width(MargiLeft);
-                    // if ($(window).scrollTop() + $(window).height() >= $('footer').offset().top) {
-                    //     $('.foto_room').css("bottom", $(window).scrollTop() + $(window).height() - $('footer').offset().top + "px");
-                    // } else {
-                    //     $('.foto_room').css("bottom", "0");
-                    // }
                 }
                 else {
                     $('.col-info').css("margin-left", 0);
