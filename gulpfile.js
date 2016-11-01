@@ -54,7 +54,8 @@ gulp.task('libs', function() {
 	return gulp.src([
 		'app/libs/jq/jquery-1.11.2.min.js',
 		'app/libs/owl.carousel/dist/owl.carousel.js',
-        'app/libs/PageScroll2id/PageScroll2id.min.js'
+        'app/libs/PageScroll2id/PageScroll2id.min.js',
+		'app/libs/kendo/kendo.all.min.js'
 		// 'app/libs/magnific-popup/magnific-popup.min.js'
 		])
 		.pipe(concat('libs.min.js'))
