@@ -6,6 +6,7 @@
 @import "current_room"
 @import "conference_hall"
 @import "current_hall"
+@import "transfer"
 
 //********************************** Начало Стили главной страницы сайта
 .hr
@@ -96,6 +97,82 @@ select
         background-position: -144px -279px
       &:checked:disabled + label::before
         background-position: -162px -279px
+
+.list_airport
+  display: inline-block
+  width: 100%
+  li
+    position: relative
+    width: 33%
+    display: inline-block
+    float: left
+    list-style-type: none
+    text-decoration: none
+    margin-bottom: 50px
+    img
+      max-width: 100%
+    .name
+      font-family: ArimoItalic
+      font-size: 12pt
+      color: #4d4d4d
+      margin-top: 5px
+      margin-bottom: 10px
+    .price
+      color: #4D4D4D
+      font-family: ArimoBold
+      font-size: 16pt
+      padding: 0px
+      border: solid 2px #D5C59C
+      display: block
+      width: 105px
+      border-radius: 3px
+      margin: auto
+      margin-top: 25px
+      margin-bottom: 10px
+      position: relative
+      span
+        font-size: 15px
+      &:before
+        content: ''
+        width: 32px
+        height: 2px
+        border-radius: 2px 0 0 2px
+        background-color: #d5c59c
+        position: absolute
+        left: -32px
+        top: 50%
+      &:after
+        content: ''
+        width: 32px
+        height: 2px
+        border-radius: 2px 0 0 2px
+        position: absolute
+        background-color: #d5c59c
+        right: -32px
+        top: 50%
+
+
+    &:before
+      display: block
+      content: ''
+      position: absolute
+      width: 9px
+      height: 9px
+      top: -6px
+      left: 50%
+      z-index: 2
+      margin-left: -5px
+      border-radius: 10em
+      border: solid #D5C59C 1px
+      background-color: #D5C59C
+
+.header_img
+  width: 100%
+  min-height: 300px
+  background-position: center center
+  background-repeat: no-repeat
+  -webkit-background-size: cover
+  background-size: cover
 //#SecondSection
 .hotel_room
   text-align: center

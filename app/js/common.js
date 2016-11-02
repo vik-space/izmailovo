@@ -1,4 +1,5 @@
 $(function () {
+
     function heightDetect() {
         if ($(window).height() > 800) {
             $(".full_height").css("height", $(window).height());
@@ -74,7 +75,6 @@ $(function () {
     });
 
 
-
     $(".SecondSection").mPageScroll2id({
         // autoScrollSpeed: true,
         scrollSpeed: 700,
@@ -82,11 +82,9 @@ $(function () {
         scrollingEasing: "easeInOutCirc"
     });
 
-    var offset = $('.col-info').offset().top;
-    var topPadding = 124;
-
     $(window).scroll(function () {
         if ($(window).width() > 768) {
+
             if ($('.col-info').height() < $('.foto_room').height()) {
                 if ($(window).scrollTop() > $('.col-info').height() - $(window).height()) {
                     $('.col-info').css("position", "fixed");
@@ -121,15 +119,59 @@ $(function () {
                     $('.foto_room').css("margin-top", "0px");
                     $('.foto_room').css("position", "static");
                 }
+
+
             }
+
         }
+
     });
 
+    if (document.documentElement.clientWidth > 992) {
 
-        $(".date").kendoDatePicker({
-            value: new Date(),
-            format: "dd MMMM yyyy"
-        });
-}
-)
-;
+        // вычисление и задание высоты контейнера, в котором находится зафиксированный блок
+        $('.stickem-container').height($(".info_transfer").height());
+
+        function getTopOffset(e) {
+            var y = 0;
+            do {
+                y += e.offsetTop;
+            } while (e = e.offsetParent);
+            return y;
+        }
+
+        var block = document.getElementById('fix_block');
+        /* fix_block - значение атрибута id блока */
+        if (null != block) {
+            var topPos = getTopOffset(block) ;
+
+            window.onscroll = function () {
+                var scrollHeight = Math.max(document.documentElement.scrollHeight, document.documentElement.clientHeight),
+
+                    // определяем высоту блока в котором находится fix_block
+                    blockHeight = block.offsetHeight,
+
+                    // вычисляем высоту контейнера с id = stop, места фиксации блока
+                    footerHeight = document.getElementById('stop').offsetHeight,
+
+                    // считаем позицию, до которой блок будет зафиксирован
+                    stopPos = scrollHeight - blockHeight - footerHeight - 90 - 110;
+
+                var newcss = (topPos < window.pageYOffset) ?
+                    'top:0px; position: fixed;  padding-right: 15px' : 'position:relative;';
+
+                if (window.pageYOffset > stopPos)
+                    newcss = 'position:absolute; bottom: 320px;  padding-right: 15px';
+
+                block.setAttribute('style', newcss);
+            }
+        }
+
+    }
+
+
+    $(".date").kendoDatePicker({
+        value: new Date(),
+        format: "dd MMMM yyyy"
+    });
+});
