@@ -53,12 +53,16 @@ $(function () {
     margiTopH1FirstLayot();
     heightDetect();
     indexContentMargin();
-    HiddenItemAction()
+    HiddenItemAction();
+    setEqualHeight($(".banqueting_hall  .hotel_room"));
+    setEqualHeight($(".current_banqueting_hall>div"));
     $(window).resize(function () {
         heightDetect();
         margiTopH1FirstLayot();
         indexContentMargin();
         HiddenItemAction()
+        setEqualHeight($(".banqueting_hall  .hotel_room"));
+        setEqualHeight($(".current_banqueting_hall>div"));
     });
 
 
@@ -184,8 +188,6 @@ $(function () {
         );
         columns.height(tallestcolumn);
     }
-
-    setEqualHeight($(".banqueting_hall  .hotel_room"));
 
     $(".date").kendoDatePicker({
         value: new Date(),
