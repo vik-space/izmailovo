@@ -102,11 +102,12 @@ gulp.task('buildhtml', function() {
 
 gulp.task('removedist', function() { return del.sync('dist'); });
 
-gulp.task('build', ['removedist', 'buildhtml', 'imagemin', 'sass', 'libs'], function() {
+gulp.task('build', ['removedist', 'buildhtml', 'imagemin', 'sass', 'libs' ,'libs_css'], function() {
 
 	var buildCss = gulp.src([
 		'app/css/fonts.min.css',
-		'app/css/main.min.css'
+		'app/css/main.min.css',
+		'app/css/libs_css.min.css'
 		]).pipe(gulp.dest('dist/css'));
 
 	var buildFiles = gulp.src([

@@ -54,10 +54,13 @@ $(function () {
     heightDetect();
     indexContentMargin();
     HiddenItemAction();
+    FaqVisible();
+    setEqualHeight($(".b-about>.b-column"));
     setEqualHeight($(".banqueting_hall  .hotel_room"));
     setEqualHeight($(".current_banqueting_hall>div"));
     $(window).resize(function () {
         heightDetect();
+        FaqVisible();
         margiTopH1FirstLayot();
         indexContentMargin();
         HiddenItemAction()
@@ -172,6 +175,17 @@ $(function () {
         }
 
     }
+
+    function FaqVisible() {
+
+        $(".faq__caption").click(function(){
+            $(this).parent().parent().children(".faq-list").slideToggle('normal');
+            $(this).parent().parent().children(".faq__hr").slideToggle('normal');
+        });
+
+    }
+
+
 
     function setEqualHeight(columns)
     {
