@@ -1,0 +1,80 @@
+.partnership
+  text-align: center
+  max-width: 780px
+  display: block
+  padding-bottom: 90px
+  margin: auto
+  .caption
+    padding-top: 109px
+    color: #4d4d4d
+    padding-bottom: 70px
+  .text_content
+    p
+      text-align: justify
+    .caption
+      font-family: ArimoItalic
+      font-size: 14pt
+      color: #977f42
+      text-align: justify
+      padding-top: 35px
+      &:before
+        content: ''
+
+
+
+  .wrap_img
+    text-align: center
+    position: relative
+    width: 180px
+    margin: auto
+    margin-bottom: 60px
+    &:before
+      content: ''
+      position: absolute
+      width: 82px
+      display: block
+      height: 1px
+      left: -100px
+      top: 50%
+      background-color: #b3b3b3
+    &:after
+      content: ''
+      position: absolute
+      width: 82px
+      display: block
+      height: 1px
+      right: -100px
+      top: 50%
+      background-color: #b3b3b3
+  ul
+    padding-left: 20px
+    text-align: left
+  li
+    color: #666666
+    font-size: 11pt
+    font-family: Arimo
+
+.caption_circle
+  @extend .caption
+  position: relative
+  padding-top: 50px !important
+  padding-bottom: 20px !important
+  &:before
+    content: ''
+    position: absolute
+    top: 16px
+    height: 8px
+    width: 8px
+    left: 50%
+    margin-left: -4px
+    border-radius: 10em
+    background-color: #d5c59c
+  &:after
+    content: ''
+    position: absolute
+    top: 20px
+    height: 1px
+    width: 80px
+    left: 50%
+    margin-left: -40px
+    background-color: #d5c59c
