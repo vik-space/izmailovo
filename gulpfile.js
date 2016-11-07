@@ -81,6 +81,16 @@ gulp.task('imagemin', function() {
 		.pipe(gulp.dest('dist/img')); 
 });
 
+gulp.task('libs_css', function () {
+	return gulp.src([
+		'app/css/libs.css',
+		'app/css/owl.carousel.css',
+	])
+		.pipe(concat('libs_css.min.css'))
+		.pipe(gulp.dest('app/css'))
+		.pipe(browserSync.reload({stream: true}))
+});
+
 gulp.task('buildhtml', function() {
   gulp.src(['app/*.html'])
     .pipe(fileinclude({
