@@ -55,6 +55,8 @@
 .b-list-hotel
   display: flex
   justify-content: center
+  padding-bottom: 50px
+  align-items: stretch
 
 .list-hotel-item
   margin-left: 10px
@@ -65,6 +67,10 @@
   font-family: ArimoItalic
   color: $gold_color
   text-align: center
+  display: block
+  margin-left: auto
+  margin-right: auto
+  width: 40px
   position: relative
   &:after
     width: 16px
@@ -72,7 +78,7 @@
     background-color: #b3b3b3
     content: ''
     position: absolute
-    left: 10px
+    left: -20px
     top: 50%
   &:before
     width: 16px
@@ -80,7 +86,7 @@
     background-color: #b3b3b3
     content: ''
     position: absolute
-    right: 10px
+    right: -20px
     top: 50%
 
 .list-hotel__name

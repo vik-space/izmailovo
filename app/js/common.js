@@ -58,7 +58,10 @@ $(function () {
     setEqualHeight($(".b-about>.b-column"));
     setEqualHeight($(".banqueting_hall  .hotel_room"));
     setEqualHeight($(".current_banqueting_hall>div"));
+
+    Add_Height_News_Column();
     $(window).resize(function () {
+        Add_Height_News_Column();
         heightDetect();
         FaqVisible();
         margiTopH1FirstLayot();
@@ -83,6 +86,22 @@ $(function () {
 
 
     $(".SecondSection").mPageScroll2id({
+        // autoScrollSpeed: true,
+        scrollSpeed: 700,
+        scrollEasing: "easeInOutExpo",
+        scrollingEasing: "easeInOutCirc"
+    });
+
+
+
+    $(".b-item-news-link").mPageScroll2id({
+        // autoScrollSpeed: true,
+        scrollSpeed: 700,
+        scrollEasing: "easeInOutExpo",
+        scrollingEasing: "easeInOutCirc"
+    });
+
+    $(".article-item-link__next").mPageScroll2id({
         // autoScrollSpeed: true,
         scrollSpeed: 700,
         scrollEasing: "easeInOutExpo",
@@ -183,6 +202,15 @@ $(function () {
             $(this).parent().parent().children(".faq__hr").slideToggle('normal');
         });
 
+    }
+
+    function Add_Height_News_Column() {
+// 166px - высота блока с заголовком Акции и нововсти
+
+        var value = ($(window).width()- 240) / 2;
+        $(".b-column-news").width( value );
+        $(".b-column-article").css("margin-left" , value) ;
+        $(".b-news-list ").height( $(window).height() - 166);
     }
 
 
