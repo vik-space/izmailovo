@@ -198,6 +198,7 @@ $(function () {
     function FaqVisible() {
 
         $(".faq__caption").click(function(){
+            $(this).children(".faq_arr").toggleClass('b_rotate');
             $(this).parent().parent().children(".faq-list").slideToggle('normal');
             $(this).parent().parent().children(".faq__hr").slideToggle('normal');
         });
