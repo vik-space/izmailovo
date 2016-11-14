@@ -87,6 +87,7 @@ gulp.task('libs_css', function () {
 		'app/css/owl.carousel.css',
 	])
 		.pipe(concat('libs_css.min.css'))
+		.pipe(cleanCSS())
 		.pipe(gulp.dest('app/css'))
 		.pipe(browserSync.reload({stream: true}))
 });

@@ -21,7 +21,7 @@ $(function () {
             // console.log($(window).width());
         } else {
             $(".index_content").css("margin-right", "400px");
-            $(".right_column").width(401);
+            $(".right_column").width($(window).width() - 240);
 
             // var WidthContent = $(window).width() - 240;
             // $(".index_content").css("margin-right", "0px");
@@ -69,6 +69,8 @@ $(function () {
         HiddenItemAction()
         setEqualHeight($(".banqueting_hall  .hotel_room"));
         setEqualHeight($(".current_banqueting_hall>div"));
+
+
     });
 
 
