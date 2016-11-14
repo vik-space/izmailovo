@@ -55,8 +55,7 @@ gulp.task('libs', function() {
 		'app/libs/jq/jquery-1.11.2.min.js',
 		'app/libs/owl.carousel/dist/owl.carousel.js',
         'app/libs/PageScroll2id/PageScroll2id.min.js',
-		'app/libs/kendo/kendo.all.min.js',
-		'app/libs/magnific-popup/jquery.magnific-popup.min.js',
+		'app/libs/kendo/kendo.all.min.js'
 		// 'app/libs/magnific-popup/magnific-popup.min.js'
 		])
 		.pipe(concat('libs.min.js'))
@@ -86,7 +85,6 @@ gulp.task('libs_css', function () {
 	return gulp.src([
 		'app/css/libs.css',
 		'app/css/owl.carousel.css',
-		'app/libs/magnific-popup/magnific-popup.css',
 	])
 		.pipe(concat('libs_css.min.css'))
 		.pipe(cleanCSS())
