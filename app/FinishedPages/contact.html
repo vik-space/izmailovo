@@ -111,8 +111,10 @@
 </head>
 
 <body>
-
-<header class="full_height">
+<div class="b-visible-nav">
+    <span class="icon-32 btn-visible-nav"></span>
+</div>
+<header class="full_height b-header-nav">
     <div class="logo">
         <a href="/">
             <img src="/img/logo.png" alt="Измайлово-Гостиничный комплекс">
@@ -185,7 +187,7 @@
 <div class="content_site b-contact">
     <div class="current_room transfer">
         <div class="header_img"></div>
-        <div class="info_transfer">
+        <div class="info_transfer b-contact-left-column">
             <div class="b-contact__header">
              <div class="caption b-contact-header-caption">Контакты</div>
                 <div class="b-icon">
@@ -327,7 +329,7 @@
                 </div>
             </div>
         </div>
-        <div class="stickem-container">
+        <div class="stickem-container b-contact-right-column">
             <div class="stickem" id="fix_block">
                 <div class="transfer_description">
                     Остались вопрос?
@@ -345,13 +347,11 @@
                                 <input type="email" name="email" placeholder="Е-mail">
                             </div>
                             <div class="form-area">
-                                <textarea name="content_text"
-                                          class="form-area__textarea"
-                                          placeholder="Ваше сообщение">
+                                <textarea name="content_text" class="form-area__textarea" placeholder="Ваше сообщение">
                                 </textarea>
                             </div>
                             <div class="wrap_btn">
-                                <button href="/" class="btn_link">Бронировать</button>
+                                <button href="/" class="btn_link">Отправить</button>
                             </div>
                         </form>
                     </div>

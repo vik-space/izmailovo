@@ -14,21 +14,15 @@ $(function () {
     function indexContentMargin() {
         var MarginRight = ($(window).width() - 240) * 0.35;
 // заменить 90 на 990
-        if ($(window).height() > 90 && $(window).width() > 1280) {
+        if ($(window).height() > 990 && $(window).width() > 1280) {
             $(".index_content").css("margin-right", MarginRight);
             $(".right_column").width(MarginRight);
-            // console.log(MarginRight);
-            // console.log($(window).width());
         } else {
-            $(".index_content").css("margin-right", "400px");
-            $(".right_column").width($(window).width() - 240);
-
-            // var WidthContent = $(window).width() - 240;
-            // $(".index_content").css("margin-right", "0px");
-            // $(".index_content").width(WidthContent);
-            // $(".right_column").width(0);
+            if ($(window).width() > 1280) {
+                $(".index_content").css("margin-right", "400px");
+                $(".right_column").width($(window).width() - 240);
+            }
         }
-
     };
 
     function margiTopH1FirstLayot() {
@@ -163,6 +157,12 @@ $(function () {
         }
 
     });
+
+    $(".b-visible-nav").click(function () {
+        $(".b-header-nav").toggleClass("header-visible");
+        $(".b-visible-nav").toggleClass("btn-visible-nav_active");
+        $(".b-visible-nav").toggleClass("rotate-block");
+    })
 
     if (document.documentElement.clientWidth > 1280) {
 

@@ -67,8 +67,10 @@
 
   .b-right-column-index
     position: relative
-    width: 100%
+    width: calc(100% - 240px)
     margin-left: 240px
+    order: 3
+    height: auto !important
 
   .b-item-index-slider
     width: 100%
@@ -77,10 +79,6 @@
     display: flex
     flex-direction: column
 
-
-  .b-right-column-index
-    order: 3
-    height: auto !important
 
   .b-right-column-index-item
     height: 400px !important
@@ -185,6 +183,7 @@
     padding-bottom: 250px
     padding-left: 25px
     padding-right: 25px
+    background-color: #ffffff
 
   .line-transfer-form
     display: flex
@@ -213,6 +212,10 @@
     display: flex
     flex-direction: column
 
+  .b-contact-right-column
+    background-color: #fff
+
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px)
 	/**/
@@ -220,7 +223,33 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
-	/**/
+  header
+    //position: absolu
+    left: -240px
+
+  .b-visible-nav
+    display: block
+
+  .b-content-site
+    width: 100%
+    margin-left: 0
+
+  .b-right-column-index
+    width: 100%
+    margin-left: 0
+
+  .first_layout
+    width: 100%
+    margin-left: 0
+
+  .b-about
+    width: 100%
+    margin-left: 0
+
+  .content_site
+    width: 100%
+    margin-left: 0
+
 
 
 /* Small Devices, Tablets */

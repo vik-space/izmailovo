@@ -112,7 +112,10 @@
 
 <body>
 
-<header class="full_height">
+<div class="b-visible-nav">
+    <span class="icon-32 btn-visible-nav"></span>
+</div>
+<header class="full_height b-header-nav">
     <div class="logo">
         <a href="/">
             <img src="/img/logo.png" alt="Измайлово-Гостиничный комплекс">
@@ -185,7 +188,7 @@
 <div class="content_site">
     <div class="current_room transfer">
         <div class="header_img"></div>
-        <div class="info_transfer">
+        <div class="info_transfer b-info-transfer">
             <div class="caption">Стандарт</div>
             <div class="transfer_description" style="text-align: justify;">
                 Удобный трансфер из аэропортов и вокзалов Москвы до гостиницы предлагает ГК "Измайлово".
@@ -348,7 +351,7 @@
                 </ul>
             </div>
         </div>
-        <div class="stickem-container">
+        <div class="stickem-container b-transfer-fix-container">
             <div class="stickem" id="fix_block">
                 <div class="transfer_description">Чтобы заказать трансфер оставьте свои контактные данные.
                     Наши менеджеры свяжутся с вами в ближайшее время.
@@ -359,17 +362,17 @@
                         <form id="transferSend">
                             <div class="wrap_circle"></div>
                             <div class="wrap_setting">
-                                <ul class="first_row">
-                                    <li class="input_date">
+                                <ul class="first_row line-transfer-form">
+                                    <li class="input_date transfer-input-date">
                                         <label for="dateStart">Дата начала мероприятия</label>
                                         <input type="text" name="dateStart" id="dateStart" class="date"
                                                placeholder="7 октября 2016">
                                     </li>
-                                    <li>
+                                    <li class="line-transfer-form__item">
                                         <label for="man">Человек</label>
                                         <input type="number" id="man" placeholder="0">
                                     </li>
-                                    <li class="input_date">
+                                    <li class="input_date line-transfer-form__item">
                                         <label for="place">Место</label>
                                         <input type="number" id="place" placeholder="0">
                                     </li>
