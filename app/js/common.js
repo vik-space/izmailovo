@@ -27,11 +27,13 @@ $(function () {
 
     function margiTopH1FirstLayot() {
         var MarginTopH1 = $(window).height() / 2 - 130;
-        if ($(window).height() > 800) {
-            $(".first_layout h1").css("padding-top", MarginTopH1);
-        } else {
-            if ($(window).height() < 800) {
-                $(".first_layout h1").css("padding-top", "170px");
+        if ($(window).width() > 480) {
+            if ($(window).height() > 800) {
+                $(".first_layout h1").css("padding-top", MarginTopH1);
+            } else {
+                if ($(window).height() < 800) {
+                    $(".first_layout h1").css("padding-top", "170px");
+                }
             }
         }
     }
