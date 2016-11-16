@@ -14,7 +14,7 @@ $(function () {
     function indexContentMargin() {
         var MarginRight = ($(window).width() - 240) * 0.35;
 // заменить 90 на 990
-        if ($(window).height() > 990 && $(window).width() > 1280) {
+        if ($(window).height() > 90 && $(window).width() > 1280) {
             $(".index_content").css("margin-right", MarginRight);
             $(".right_column").width(MarginRight);
         } else {
@@ -37,7 +37,7 @@ $(function () {
     }
 
     function HiddenItemAction() {
-        if ($(window).height() < 910) {
+        if ($(window).height() < 910 && $(window).height() > 992) {
             $(".item_action").css("display", "none");
         } else {
             $(".item_action").css("display", "block");
@@ -150,12 +150,8 @@ $(function () {
                     $('.foto_room').css("margin-top", "0px");
                     $('.foto_room').css("position", "static");
                 }
-
-
             }
-
         }
-
     });
 
     $(".b-visible-nav").click(function () {

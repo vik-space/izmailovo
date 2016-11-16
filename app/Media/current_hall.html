@@ -111,8 +111,10 @@
 </head>
 
 <body>
-
-<header class="full_height">
+<div class="b-visible-nav">
+    <span class="icon-32 btn-visible-nav"></span>
+</div>
+<header class="full_height b-header-nav">
     <div class="logo">
         <a href="/">
             <img src="/img/logo.png" alt="Измайлово-Гостиничный комплекс">
@@ -246,7 +248,7 @@
                                 <label for="dateEnd">Дата окончания мероприятия</label>
                                 <input type="text" name="dateEnd" id="dateEnd" class="date" placeholder="Имя Фамилия">
                             </li>
-                            <li>
+                            <li class="count_seats">
                                 <label for="count_seats">Мест</label>
                                 <select name="count_seats" id="count_seats">
                                     <option value="30">30</option>
