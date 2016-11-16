@@ -8,6 +8,10 @@
   .list-item__contact
     width: 100%
     text-align: center
+
+  .b-column-caption_BB
+    font-size: 32pt
+
 @media only screen and (max-width : 1470px)
 
   .current_hall
@@ -36,6 +40,23 @@
             width: 144px
         .input_date
           width: 100%
+
+
+  .b-column-caption_BB
+    font-size: 28pt
+
+  .transfer-input-date
+    label
+      margin-bottom: 10px !important
+    margin-bottom: 15px
+
+  .contact_section
+    display: flex
+    flex-direction: column
+    input
+      width: 100% !important
+      max-width: 100% !important
+      margin-bottom: 15px
 
 @media only screen and (max-width : 1270px)
 
@@ -215,6 +236,21 @@
   .b-contact-right-column
     background-color: #fff
 
+  .current_banqueting_hall
+    .hr
+      display: none
+
+  #calcul_hall
+    .date
+      margin-left: 0 !important
+
+  .b-current-hall-left-column
+    img
+      width: 100%
+
+
+
+
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px)
@@ -228,6 +264,7 @@
     left: -260px
     width: 260px
     overflow: scroll
+    overflow-x: hidden
 
 
   .b-visible-nav
@@ -268,6 +305,10 @@
 
   .content_site
     min-width: 280px
+
+  footer .double_footer
+    margin-left: 0 !important
+    margin-right: 0 !important
 
   .wrap_calcul
     img
@@ -366,13 +407,24 @@
     padding-left: 0px
     padding-right: 0px
 
+  .content_index:after
+    margin-left: -41px
+    left: 50%
+
+  .b-contact-left-column, .transfer
+    .hr
+      margin-left: -25px !important
+      margin-right: -25px !important
+
+
+
 
 
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
   .first_layout h1
-    padding-top: 100px
+    padding-top: 50px !important
     font-size: 28pt
     line-height: 54px
 
@@ -479,6 +531,8 @@
   .b-list-properties-banqueting-hall
     padding-left: 15px !important
     padding-right: 15px !important
+    li
+      width: 100% !important
 
   .b-current-banqueting-hall-right-column, .b-current-hall-right-column
     .hr
@@ -597,6 +651,10 @@
     .hr
       margin-left: 0 !important
       margin-right: 0 !important
+
+  .info_room .b-list-properties-banqueting-hall
+    li
+      width: 100% !important
 
 
 /* Custom, iPhone Retina */
