@@ -29,5 +29,8 @@
     "imagemin-pngquant": "^5.0.0",
     "node-bourbon": "^4.2.8",
     "vinyl-ftp": "^0.5.0"
+  },
+  "dependencies": {
+    "imagemin-jpegtran": "^5.0.2"
   }
 }

@@ -11,14 +11,16 @@ $(function () {
         }
     }
 
+
+
     function indexContentMargin() {
         var MarginRight = ($(window).width() - 240) * 0.35;
 // заменить 90 на 990
-        if ($(window).height() > 90 && $(window).width() > 1270) {
+        if ($(window).height() > 90 && $(window).width() > 1280) {
             $(".index_content").css("margin-right", MarginRight);
             $(".right_column").width(MarginRight);
         } else {
-            if ($(window).width() > 1270) {
+            if ($(window).width() > 1280) {
                 $(".index_content").css("margin-right", "400px");
                 $(".right_column").width($(window).width() - 240);
             }
@@ -50,10 +52,9 @@ $(function () {
     heightDetect();
     indexContentMargin();
     HiddenItemAction();
-    FaqVisible();
 
-    if($(window).width() > 1270){
-        setEqualHeight($(".b-about>.b-column"));
+    if($(window).width() > 1280){
+        //setEqualHeight($(".b-about>.b-column"));
         setEqualHeight($(".banqueting_hall  .hotel_room"));
     }
 
@@ -61,16 +62,29 @@ $(function () {
 
     Add_Height_News_Column();
     replacePopupbyScroll();
+    scroolly_CurrentBanquetHall();
+    scroolly_Complex();
+    if($(window).height() < 732){
+        $(".action").css({"position" : "relative", "margin-top" : "25px"});
+    } else {
+        $(".action").css("position", "absolute");
+    }
     $(window).resize(function () {
+        scroolly_CurrentBanquetHall();
+        scroolly_Complex();
         Add_Height_News_Column();
         heightDetect();
-        FaqVisible();
         margiTopH1FirstLayot();
         indexContentMargin();
         HiddenItemAction();
         replacePopupbyScroll();
-        if($(window).width() > 1270){
-            setEqualHeight($(".b-about>.b-column"));
+        if($(window).height() < 732){
+            $(".action").css({"position" : "relative", "margin-top" : "25px"});
+        } else {
+            $(".action").css("position", "absolute");
+        }
+        if($(window).width() > 1280){
+            //setEqualHeight($(".b-about>.b-column"));
             setEqualHeight($(".banqueting_hall  .hotel_room"));
         }
 
@@ -116,7 +130,7 @@ $(function () {
     $(".popup").magnificPopup();
 
     $(window).scroll(function () {
-        if ($(window).width() > 1270) {
+        if ($(window).width() > 1280 && $('.b-col-info').height() != "" && 0) {
 
             if ($('.b-col-info').height() < $('.b-foto_room').height()) {
                 if ($(window).scrollTop() > $('.b-col-info').height() - $(window).height()) {
@@ -173,7 +187,7 @@ $(function () {
         $(".b-visible-nav").toggleClass("rotate-block");
     })
 
-    if (document.documentElement.clientWidth > 1270) {
+    if (document.documentElement.clientWidth > 1280) {
 
         // вычисление и задание высоты контейнера, в котором находится зафиксированный блок
         $('.stickem-container').height($(".info_transfer").height());
@@ -215,19 +229,27 @@ $(function () {
 
     }
 
-    function FaqVisible() {
 
-        $(".faq__caption").click(function(){
-            $(this).children(".faq_arr").toggleClass('b_rotate');
-            $(this).parent().parent().children(".faq-list").slideToggle('normal');
-            $(this).parent().parent().children(".faq__hr").slideToggle('normal');
-        });
+    $(".faq__caption").click(function () {
+        $(this).children(".faq_arr").toggleClass('b_rotate');
+        $(this).parent().parent().children(".faq-list").slideToggle('normal');
+        $(this).parent().parent().children(".faq__hr").slideToggle('normal');
+    });
 
-    }
+    $(".control-comment-add").click(function () {
+        $(".b-add-comment").slideToggle('normal');
+    });
+
+    $(".js-caption-comment").click(function(){
+        if ($(".b-add-comment").css("display") == "block"){
+            $(".b-add-comment").slideUp("normal");
+        }
+    });
+
 
     function Add_Height_News_Column() {
 // 166px - высота блока с заголовком Акции и нововсти
-        if ($(window).width() > 1270) {
+        if ($(window).width() > 1280) {
             var value = ($(window).width() - 240) / 2;
             $(".b-column-news").width(value);
             $(".b-column-article").css("margin-left", value);
@@ -238,7 +260,7 @@ $(function () {
     }
     
     function replacePopupbyScroll() {
-        if ($(window).width() > 1270) {
+        if ($(window).width() > 1280) {
             $(".b-item-news-link").each(function () {
                 $(this).addClass("b-scroll-to-id");
                 $(this).removeClass("popup");
@@ -268,8 +290,7 @@ $(function () {
 
 
 
-    function setEqualHeight(columns)
-    {
+    function setEqualHeight(columns) {
         var tallestcolumn = 0;
         columns.each(
             function()
@@ -283,6 +304,146 @@ $(function () {
         );
         columns.height(tallestcolumn);
     }
+
+
+    function scroolly_CurrentBanquetHall() {
+
+        if ($(window).width() > 1280) {
+            var OffsetFooter = $("footer").height() + 35;
+            $('#current-banqueting-hall-scrolly-content').scroolly([
+                {
+                    to: 'con-top',
+                    css: {
+                        top: '0',
+                        bottom: '0',
+                        position: 'absolute'
+                    }
+                },
+                {
+                    from: 'con-top',
+                    to: 'con-bottom - 100el = vp-top',
+                    css: {
+                        top: '0',
+                        bottom: '0',
+                        position: 'fixed'
+
+                    }
+                },
+                {
+                    from: 'con-bottom - 100el = vp-top',
+                    css: {
+                        top: '',
+                        bottom: OffsetFooter + 'px',
+                        position: 'absolute'
+                    }
+                }
+            ], $('.b-current-banqueting-hall-left-column'));
+        }else{
+            $('#current-banqueting-hall-scrolly-content').css("position", "relative");
+
+        }
+
+    }
+
+    function scroolly_Complex() {
+
+        if ($(window).width() > 1280) {
+            $('.b-complex-form').width($(".complex-right-column").width());
+            $('.b-complex-form').scroolly([
+                {
+                    to: 'con-top',
+                    css: {
+                        top: '0',
+                        bottom: '',
+                        left: '',
+                        right: '50px',
+                        position: 'absolute'
+                    }
+                },
+                {
+                    from: 'con-top',
+                    to: 'con-bottom - 100el = vp-top',
+                    css: {
+                        top: '0',
+                        bottom: '',
+                        left: '',
+                        right: '50px',
+                        position: 'fixed'
+
+                    }
+                },
+                {
+                    from: 'con-bottom - 100el = vp-top',
+                    css: {
+                        top: '0',
+                        bottom: '',
+                        left: '',
+                        right: '50px',
+                        position: 'absolute'
+                    }
+                }
+            ], $('.complex-right-column'));
+        }else{
+            $('.b-complex-form').css({"position":"relative", "width":"100%" , "right":"auto"});
+        }
+
+    }
+
+
+    $("#addComment").submit(function () {
+        $.ajax({
+            type: "POST",
+            url: "addComment.php",
+            data: $(this).serialize()
+        }).done(function (response) {
+            var ContentBeforeHtml = $("#addComment").html();
+            var ContentResponseHtml = '<div class="responseContent">' +
+                '<div>Спасибо за Ваш отзыв!</div>' +
+                '<div>Он будет добавлен в ближайшее время.</div>' +
+                ' </div>';
+            $("#addComment").trigger("reset");
+            $("#addComment").html(ContentResponseHtml);
+            setTimeout(function () {
+                $("#addComment").html(ContentBeforeHtml);
+            }, 3000);
+        });
+        return false;
+    });
+
+    $("#MessageAction").submit(function () {
+        $.ajax({
+            type: "POST",
+            url: "addComment.php",
+            data: $(this).serialize()
+        }).done(function (response) {
+            var ContentBeforeHtml = $("#MessageAction").html();
+            var ContentResponseHtml = '<div class="popup-form_border"> ' +
+                '<div class="form_border__circle"></div> ' +
+                '<div class="b-popup-response-content"> ' +
+                '<div>Спасибо за участие! Ваша заявка отправлена.</div> ' +
+                '<div>Наш менеджер свяжется с вами в ближайшее время.</div> ' +
+                '</div> ' +
+                '</div>';
+            $("#MessageAction").trigger("reset");
+            $("#MessageAction").html(ContentResponseHtml);
+            setTimeout(function () {
+                $("#MessageAction").html(ContentBeforeHtml);
+            }, 3000);
+            setTimeout(function () {
+                $.magnificPopup.close();
+            }, 2000);
+        });
+        return false;
+    });
+
+    $(".btn_link_action").click( function () {
+        $('.b-popup-form-area textarea').text("");
+        var NameAction = $(this).attr("data-name-action");
+        var TextFromArea = "Здравствуйте, меня интересует " + NameAction;
+        $('.b-popup-form-area textarea').append(TextFromArea);
+    });
+
+
 
     $(".date").kendoDatePicker({
         value: new Date(),

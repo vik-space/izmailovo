@@ -15,6 +15,7 @@
 @import "about_hotel"
 @import "news"
 @import "lions"
+@import "_complex"
 
 //********************************** Начало Стили главной страницы сайта
 
@@ -425,5 +426,115 @@ footer
 .btn_link
   font-family: ArimoBold
   font-size: 11pt
+  text-decoration: none !important
+
+.non_after:after
+  display: none !important
+
+.b-hidden
+  display: none
+  
+.btn_link_action
+  color: #fff!important
+
+.popup-form
+  display: block
+  max-width: 670px
+  margin: auto
+  width: 100%
+  padding: 35px 25px
+  border-radius: 10px
+
+#form-action
+  display: block
+  max-width: 670px
+  margin: auto
+  width: 100%
+  position: relative
+
+.b-popup-description
+  text-align: center
+  font-family: ArimoItalic
+
+.popup-desc__title
+  color: #977f42
+  font-size: 14pt
+  margin-bottom: 7px
+
+.popup-desc__content
+  color: #666666
+  font-size: 11pt
+  margin-bottom: 30px
+
+.b-popup-form-area
+  padding-left: 0
+  padding-right: 0
+
+.b-popup-contact
+  display: flex
+  justify-content: space-between
+  input
+    width: 30% !important
+
+.popup-form_border
+  border-radius: 3px
+  border: solid 3px #D5C59C
+  position: relative
+  padding-top: 35px
+  padding-left: 15px
+  padding-right: 15px
+  padding-bottom: 37px
+
+.form_border__circle
+  position: absolute
+  left: 50%
+  height: 17px
+  width: 17px
+  border-radius: 10em
+  margin-left:
+  margin-top: -45.5px
+  background-color: #fff
+  display: block
+  &:before
+    content: ''
+    display: block
+    left: 50%
+    height: 9px
+    width: 9px
+    border-radius: 10em
+    margin-left: 3.5px
+    margin-top: 4px
+    background-color: #D5C59C
+
+.wrap-popup-button
+  position: absolute
+  width: 132px
+  left: 50%
+  margin-left: -66px
+  background-color: #fff
+  bottom: -19px
+
+.btn-popup
+  border: none !important
+  padding-left: 15px
+  padding-right: 15px
+  text-align: center
+
+.btn-popup-action
+  width: 122px
+  margin-left: 5px
+
+.b-popup-response-content
+  color: #666666
+  font-family: ArimoItalic
+  font-size: 14pt
+  text-align: center
+
+.H_reset
+  font-weight: inherit
+  font-size: inherit
+  line-height: inherit
+  margin: inherit
+  padding: inherit
 
 @import "media"

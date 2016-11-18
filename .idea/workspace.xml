@@ -2,7 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f526c54-186a-431c-a6a1-7712e86dbb9c" name="Default" comment="Начало адаптивной вёрстки сайта">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/readme.md" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/Icomoon/Icomoon.eot" afterPath="$PROJECT_DIR$/app/fonts/Icomoon/Icomoon.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/Icomoon/Icomoon.ttf" afterPath="$PROJECT_DIR$/app/fonts/Icomoon/Icomoon.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/Icomoon/Icomoon.woff" afterPath="$PROJECT_DIR$/app/fonts/Icomoon/Icomoon.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/1.jpg" afterPath="$PROJECT_DIR$/app/img/1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/10.jpg" afterPath="$PROJECT_DIR$/app/img/10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/11.jpg" afterPath="$PROJECT_DIR$/app/img/11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/12.jpg" afterPath="$PROJECT_DIR$/app/img/12.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/13.jpg" afterPath="$PROJECT_DIR$/app/img/13.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/14.jpg" afterPath="$PROJECT_DIR$/app/img/14.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/15.jpg" afterPath="$PROJECT_DIR$/app/img/15.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/16.jpg" afterPath="$PROJECT_DIR$/app/img/16.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/17.jpg" afterPath="$PROJECT_DIR$/app/img/17.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/2.jpg" afterPath="$PROJECT_DIR$/app/img/2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/3.jpg" afterPath="$PROJECT_DIR$/app/img/3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/4.jpg" afterPath="$PROJECT_DIR$/app/img/4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/5.jpg" afterPath="$PROJECT_DIR$/app/img/5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/6.jpg" afterPath="$PROJECT_DIR$/app/img/6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/7.jpg" afterPath="$PROJECT_DIR$/app/img/7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/8.jpg" afterPath="$PROJECT_DIR$/app/img/8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/9.jpg" afterPath="$PROJECT_DIR$/app/img/9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/For article/01_kreml_v_izmaylovo.jpg" afterPath="$PROJECT_DIR$/app/img/For article/01_kreml_v_izmaylovo.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/For article/anticvariat.jpg" afterPath="$PROJECT_DIR$/app/img/For article/anticvariat.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/For article/img_0197.jpg" afterPath="$PROJECT_DIR$/app/img/For article/img_0197.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/alfa.png" afterPath="$PROJECT_DIR$/app/img/alfa.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/anticvsriat.jpg" afterPath="$PROJECT_DIR$/app/img/anticvsriat.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/ask.png" afterPath="$PROJECT_DIR$/app/img/ask.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/beta.png" afterPath="$PROJECT_DIR$/app/img/beta.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/calcul.png" afterPath="$PROJECT_DIR$/app/img/calcul.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/domodedovo.png" afterPath="$PROJECT_DIR$/app/img/domodedovo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/gamma.png" afterPath="$PROJECT_DIR$/app/img/gamma.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/kreml.jpg" afterPath="$PROJECT_DIR$/app/img/kreml.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/logo.png" afterPath="$PROJECT_DIR$/app/img/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/logo_to_partner.png" afterPath="$PROJECT_DIR$/app/img/logo_to_partner.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/partnership.png" afterPath="$PROJECT_DIR$/app/img/partnership.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/pero.png" afterPath="$PROJECT_DIR$/app/img/pero.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/pics.jpg" afterPath="$PROJECT_DIR$/app/img/pics.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/price.png" afterPath="$PROJECT_DIR$/app/img/price.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/scheremrt.png" afterPath="$PROJECT_DIR$/app/img/scheremrt.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/sprite.png" afterPath="$PROJECT_DIR$/app/img/sprite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/svitok.png" afterPath="$PROJECT_DIR$/app/img/svitok.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/transfer.png" afterPath="$PROJECT_DIR$/app/img/transfer.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/vega.png" afterPath="$PROJECT_DIR$/app/img/vega.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/vnukovo.png" afterPath="$PROJECT_DIR$/app/img/vnukovo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FinishedPages/ListRoom.html" afterPath="$PROJECT_DIR$/app/FinishedPages/ListRoom.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FinishedPages/about_hotel.html" afterPath="$PROJECT_DIR$/app/FinishedPages/about_hotel.html" />
@@ -17,24 +59,22 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FinishedPages/partnership.html" afterPath="$PROJECT_DIR$/app/FinishedPages/partnership.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FinishedPages/transfer.html" afterPath="$PROJECT_DIR$/app/FinishedPages/transfer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FinishedPages/сurrent_room.html" afterPath="$PROJECT_DIR$/app/FinishedPages/сurrent_room.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Media/ListRoom.html" afterPath="$PROJECT_DIR$/app/Media/ListRoom.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Media/about_hotel.html" afterPath="$PROJECT_DIR$/app/Media/about_hotel.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Media/banqueting_hall.html" afterPath="$PROJECT_DIR$/app/Media/banqueting_hall.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Media/conference_hall.html" afterPath="$PROJECT_DIR$/app/Media/conference_hall.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Media/contact.html" afterPath="$PROJECT_DIR$/app/Media/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Media/current_banqueting_hall.html" afterPath="$PROJECT_DIR$/app/Media/current_banqueting_hall.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Media/current_hall.html" afterPath="$PROJECT_DIR$/app/Media/current_hall.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Media/index.html" afterPath="$PROJECT_DIR$/app/Media/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Media/lions.html" afterPath="$PROJECT_DIR$/app/Media/lions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Media/news.html" afterPath="$PROJECT_DIR$/app/Media/news.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Media/partnership.html" afterPath="$PROJECT_DIR$/app/Media/partnership.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Media/transfer.html" afterPath="$PROJECT_DIR$/app/Media/transfer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Media/сurrent_room.html" afterPath="$PROJECT_DIR$/app/Media/сurrent_room.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/Icomoon/Icomoon.svg" afterPath="$PROJECT_DIR$/app/fonts/Icomoon/Icomoon.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/header.min.css" afterPath="$PROJECT_DIR$/app/header.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/header.sass" afterPath="$PROJECT_DIR$/app/header.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/common.js" afterPath="$PROJECT_DIR$/app/js/common.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/libs.min.js" afterPath="$PROJECT_DIR$/app/js/libs.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_about_hotel.sass" afterPath="$PROJECT_DIR$/app/sass/_about_hotel.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_banqueting_hall.sass" afterPath="$PROJECT_DIR$/app/sass/_banqueting_hall.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_current_banqueting_hall.sass" afterPath="$PROJECT_DIR$/app/sass/_current_banqueting_hall.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_icomon.sass" afterPath="$PROJECT_DIR$/app/sass/_icomon.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_media.sass" afterPath="$PROJECT_DIR$/app/sass/_media.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_news.sass" afterPath="$PROJECT_DIR$/app/sass/_news.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_transfer.sass" afterPath="$PROJECT_DIR$/app/sass/_transfer.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_vars.sass" afterPath="$PROJECT_DIR$/app/sass/_vars.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/main.sass" afterPath="$PROJECT_DIR$/app/sass/main.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="izmailovo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,31 +95,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_media.sass" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
+      <file leaf-file-name="_complex.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/sass/_complex.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2937">
-              <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Media/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1309">
-              <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="117" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="сurrent_room.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/сurrent_room.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="117" column="41" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="41" />
+            <state relative-caret-position="439">
+              <caret line="136" column="18" selection-start-line="136" selection-start-column="1" selection-end-line="136" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -88,18 +108,18 @@
       <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2771">
-              <caret line="163" column="53" selection-start-line="163" selection-start-column="41" selection-end-line="163" selection-end-column="53" />
+            <state relative-caret-position="714">
+              <caret line="81" column="79" selection-start-line="81" selection-start-column="79" selection-end-line="81" selection-end-column="79" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/header.sass">
+      <file leaf-file-name="main.min.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/css/main.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+            <state relative-caret-position="30940">
+              <caret line="0" column="354187" selection-start-line="0" selection-start-column="354187" selection-end-line="0" selection-end-column="354187" />
               <folding />
             </state>
           </provider>
@@ -113,57 +133,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/css/main.min.css" />
-        <option value="$PROJECT_DIR$/app/sass/_current_hall.sass" />
-        <option value="$PROJECT_DIR$/app/sass/_banqueting_hall.sass" />
-        <option value="$PROJECT_DIR$/app/sass/_current_banqueting_hall.sass" />
-        <option value="$PROJECT_DIR$/app/sass/_transfer.sass" />
-        <option value="$PROJECT_DIR$/app/sass/_partnership.sass" />
-        <option value="$PROJECT_DIR$/dist/banqueting_hall.html" />
-        <option value="$PROJECT_DIR$/app/Готовые страницы/banqueting_hall.html" />
-        <option value="$PROJECT_DIR$/app/Готовые страницы/conference_hall.html" />
-        <option value="$PROJECT_DIR$/app/Готовые страницы/contact.html" />
-        <option value="$PROJECT_DIR$/app/Готовые страницы/current_banqueting_hall.html" />
-        <option value="$PROJECT_DIR$/app/Готовые страницы/current_hall.html" />
-        <option value="$PROJECT_DIR$/app/Готовые страницы/index.html" />
-        <option value="$PROJECT_DIR$/app/Готовые страницы/ListRoom.html" />
-        <option value="$PROJECT_DIR$/app/Готовые страницы/partnership.html" />
-        <option value="$PROJECT_DIR$/app/Готовые страницы/transfer.html" />
-        <option value="$PROJECT_DIR$/app/Готовые страницы/сurrent_room.html" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/transfer.html" />
-        <option value="$PROJECT_DIR$/app/sass/_contact.sass" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/main.php" />
-        <option value="$PROJECT_DIR$/app/sass/_vars.sass" />
-        <option value="$PROJECT_DIR$/app/sass/_base.sass" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/index 2.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/edit.css" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/index.php" />
-        <option value="$PROJECT_DIR$/app/sass/main.sass" />
-        <option value="$PROJECT_DIR$/app/sass/_lions.sass" />
-        <option value="$PROJECT_DIR$/app/sass/_about_hotel.sass" />
-        <option value="$PROJECT_DIR$/app/sass/_news.sass" />
-        <option value="$PROJECT_DIR$/app/Готовые страницы/news.html" />
-        <option value="$PROJECT_DIR$/dist/news.html" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/prod.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/common.js" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/file_price.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/index 6.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/index 7.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/index 8.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/index 9.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/index 10.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/index 11.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/index 13.php" />
+        <option value="$PROJECT_DIR$/../dh35/bitrix/index.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/index 4.php" />
+        <option value="$PROJECT_DIR$/../dh35/index.php" />
+        <option value="C:/Work/Измайлово/Для верстки/Иконки/icomoon (2)/style.css" />
+        <option value="$PROJECT_DIR$/app/sass/_icomon.sass" />
+        <option value="$PROJECT_DIR$/app/sass/fonts.sass" />
+        <option value="C:/Work/Плагины/optimizedhtml/gulpfile.js" />
+        <option value="$USER_HOME$/Desktop/optimizedhtml/gulpfile.js" />
+        <option value="C:/optimizedhtml/gulpfile.js" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/../mkm/app/js/common.js" />
+        <option value="$PROJECT_DIR$/app/sass/_current_banqueting_hall.sass" />
         <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/js/common.js" />
-        <option value="$PROJECT_DIR$/app/header.sass" />
-        <option value="$PROJECT_DIR$/app/about_hotel.html" />
-        <option value="$PROJECT_DIR$/app/banqueting_hall.html" />
         <option value="$PROJECT_DIR$/app/conference_hall.html" />
         <option value="$PROJECT_DIR$/app/contact.html" />
         <option value="$PROJECT_DIR$/app/current_banqueting_hall.html" />
-        <option value="$PROJECT_DIR$/app/current_hall.html" />
         <option value="$PROJECT_DIR$/app/lions.html" />
         <option value="$PROJECT_DIR$/app/ListRoom.html" />
-        <option value="$PROJECT_DIR$/app/news.html" />
         <option value="$PROJECT_DIR$/app/partnership.html" />
         <option value="$PROJECT_DIR$/app/transfer.html" />
         <option value="$PROJECT_DIR$/app/сurrent_room.html" />
+        <option value="$PROJECT_DIR$/app/current_hall.html" />
+        <option value="$PROJECT_DIR$/app/addComment.php" />
+        <option value="$PROJECT_DIR$/app/sass/_about_hotel.sass" />
+        <option value="$PROJECT_DIR$/app/about_hotel.html" />
+        <option value="$PROJECT_DIR$/app/sass/_transfer.sass" />
+        <option value="$PROJECT_DIR$/app/sass/_current_hall.sass" />
+        <option value="$PROJECT_DIR$/app/sass/_vars.sass" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/script 2.js" />
+        <option value="$PROJECT_DIR$/app/sass/_news.sass" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/file_price.php" />
+        <option value="$PROJECT_DIR$/app/news.html" />
+        <option value="$PROJECT_DIR$/app/sass/main.sass" />
+        <option value="$PROJECT_DIR$/app/sass/_complex.sass" />
+        <option value="$PROJECT_DIR$/app/alfa.html" />
+        <option value="$PROJECT_DIR$/app/beta.html" />
+        <option value="$PROJECT_DIR$/app/gamma.html" />
+        <option value="$PROJECT_DIR$/app/vega.html" />
+        <option value="$PROJECT_DIR$/app/banqueting_hall.html" />
+        <option value="$PROJECT_DIR$/app/sass/_banqueting_hall.sass" />
+        <option value="$PROJECT_DIR$/app/js/common.js" />
         <option value="$PROJECT_DIR$/app/sass/_media.sass" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/common 2.js" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/Comment.php" />
       </list>
     </option>
   </component>
@@ -208,6 +228,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -254,90 +276,12 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Media" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="izmailovo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="izmailovo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="izmailovo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="izmailovo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magnific-popup" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="izmailovo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="izmailovo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="izmailovo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="izmailovo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="sass" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -420,7 +364,11 @@
       <workItem from="1478578733989" duration="4541000" />
       <workItem from="1479113785906" duration="11791000" />
       <workItem from="1479126039433" duration="4808000" />
-      <workItem from="1479188690911" duration="1030000" />
+      <workItem from="1479188690911" duration="31802000" />
+      <workItem from="1479271886840" duration="24673000" />
+      <workItem from="1479377139846" duration="6457000" />
+      <workItem from="1479385562053" duration="6825000" />
+      <workItem from="1479446373714" duration="25328000" />
     </task>
     <task id="LOCAL-00001" summary="Начало адаптивной вёрстки сайта">
       <created>1479122609241</created>
@@ -433,19 +381,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176345000" />
+    <option name="totallyTimeSpent" value="270400000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="54" y="-8" width="1874" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13340683" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1356119" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972437" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -453,7 +402,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -466,12 +414,12 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2370452" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1356119" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972437" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -511,268 +459,417 @@
     <option name="LAST_COMMIT_MESSAGE" value="Начало адаптивной вёрстки сайта" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Готовые страницы/current_hall.html" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-1/main.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-1/transfer.html" />
-    <entry file="file://$PROJECT_DIR$/app/Готовые страницы/transfer.html" />
-    <entry file="file://$PROJECT_DIR$/app/Готовые страницы/contact.html" />
-    <entry file="file://$PROJECT_DIR$/app/Готовые страницы/index.html" />
-    <entry file="file://$PROJECT_DIR$/app/sass/_libs.sass">
+    <entry file="file://C:/Work/Плагины/optimizedhtml/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="75" column="3" selection-start-line="75" selection-start-column="3" selection-end-line="75" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Work/Измайлово/Для верстки/Иконки/icomoon (2)/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="876">
+          <caret line="136" column="1" selection-start-line="26" selection-start-column="0" selection-end-line="136" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/optimizedhtml/gulpfile.js" />
+    <entry file="file://C:/optimizedhtml/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_base.sass">
+    <entry file="file://C:/optimizedhtml/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <caret line="98" column="26" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_vars.sass">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mkm/app/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="104" column="41" selection-start-line="104" selection-start-column="41" selection-end-line="104" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_current_banqueting_hall.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ht.access">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/conference_hall.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="120" column="81" selection-start-line="120" selection-start-column="81" selection-end-line="120" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/current_banqueting_hall.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="119" column="81" selection-start-line="119" selection-start-column="81" selection-end-line="119" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="119" column="81" selection-start-line="119" selection-start-column="81" selection-end-line="119" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/сurrent_room.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="120" column="81" selection-start-line="120" selection-start-column="81" selection-end-line="120" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/transfer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="120" column="81" selection-start-line="120" selection-start-column="81" selection-end-line="120" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ListRoom.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="120" column="81" selection-start-line="120" selection-start-column="81" selection-end-line="120" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="188" column="61" selection-start-line="188" selection-start-column="41" selection-end-line="188" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/fonts.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="20" />
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="357" column="26" selection-start-line="342" selection-start-column="20" selection-end-line="357" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_conference_hall.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/_contact.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1346">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        <state relative-caret-position="-1589">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-1/footer.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-1/edit.css">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-1/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="132" column="20" selection-start-line="132" selection-start-column="20" selection-end-line="132" selection-end-column="20" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_news.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="711">
-          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_lions.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/news.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5712">
-          <caret line="284" column="12" selection-start-line="284" selection-start-column="12" selection-end-line="284" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Готовые страницы/news.html" />
-    <entry file="file://$PROJECT_DIR$/app/Готовые страницы/about_hotel.html" />
-    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-1/index 2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-1/load_Replies.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-1/sef_url.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-1/index 3.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-1/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-1/prod.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-1/bd.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-1/advert.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-1/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mkm/app/sass/fonts.sass">
+    <entry file="file://$PROJECT_DIR$/app/addComment.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-1/file_price.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="313" column="28" selection-start-line="313" selection-start-column="28" selection-end-line="314" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mkm/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="90" column="53" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/libs/magnific-popup/magnific-popup.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/libs_css.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="0" column="2425" selection-start-line="0" selection-start-column="2425" selection-end-line="0" selection-end-column="2425" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html" />
-    <entry file="file://$PROJECT_DIR$/app/header.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        <state relative-caret-position="0">
+          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/_about_hotel.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="127" column="29" selection-start-line="127" selection-start-column="29" selection-end-line="127" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/about_hotel.html" />
-    <entry file="file://$PROJECT_DIR$/app/banqueting_hall.html" />
-    <entry file="file://$PROJECT_DIR$/app/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2771">
-          <caret line="163" column="53" selection-start-line="163" selection-start-column="41" selection-end-line="163" selection-end-column="53" />
+        <state relative-caret-position="791">
+          <caret line="328" column="16" selection-start-line="328" selection-start-column="16" selection-end-line="328" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/conference_hall.html" />
-    <entry file="file://$PROJECT_DIR$/app/contact.html">
+    <entry file="file://$PROJECT_DIR$/app/sass/_transfer.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="349" column="88" selection-start-line="349" selection-start-column="88" selection-end-line="349" selection-end-column="88" />
+        <state relative-caret-position="51">
+          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/current_banqueting_hall.html">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-1/script 2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="116" column="41" selection-start-line="116" selection-start-column="41" selection-end-line="116" selection-end-column="41" />
+        <state relative-caret-position="302">
+          <caret line="279" column="36" selection-start-line="279" selection-start-column="11" selection-end-line="279" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/current_hall.html">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-1/file_price.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="116" column="41" selection-start-line="116" selection-start-column="41" selection-end-line="116" selection-end-column="41" />
+        <state relative-caret-position="405">
+          <caret line="277" column="57" selection-start-line="277" selection-start-column="57" selection-end-line="277" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/lions.html">
+    <entry file="file://$PROJECT_DIR$/app/sass/_news.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="116" column="41" selection-start-line="116" selection-start-column="41" selection-end-line="116" selection-end-column="41" />
+        <state relative-caret-position="1870">
+          <caret line="110" column="23" selection-start-line="110" selection-start-column="23" selection-end-line="110" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/ListRoom.html">
+    <entry file="file://$PROJECT_DIR$/app/sass/_base.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="117" column="41" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="41" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/news.html">
+    <entry file="file://$PROJECT_DIR$/app/sass/_vars.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="116" column="41" selection-start-line="116" selection-start-column="41" selection-end-line="116" selection-end-column="41" />
+        <state relative-caret-position="629">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/partnership.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="117" column="41" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="41" />
+        <state relative-caret-position="629">
+          <caret line="120" column="81" selection-start-line="0" selection-start-column="0" selection-end-line="340" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/transfer.html">
+    <entry file="file://$PROJECT_DIR$/app/sass/_partnership.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="117" column="41" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="41" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_current_hall.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="254" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/about_hotel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="543" column="97" selection-start-line="543" selection-start-column="23" selection-end-line="543" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="582" column="104" selection-start-line="582" selection-start-column="19" selection-end-line="582" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="876">
+          <caret line="537" column="18" selection-start-line="537" selection-start-column="18" selection-end-line="537" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/current_hall.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="257" column="33" selection-start-line="257" selection-start-column="33" selection-end-line="257" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/gamma.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1071">
+          <caret line="195" column="43" selection-start-line="195" selection-start-column="43" selection-end-line="195" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/vega.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-884">
+          <caret line="236" column="54" selection-start-line="236" selection-start-column="54" selection-end-line="236" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/beta.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-884">
+          <caret line="236" column="54" selection-start-line="236" selection-start-column="54" selection-end-line="236" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/alfa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1828">
+          <caret line="266" column="52" selection-start-line="266" selection-start-column="52" selection-end-line="266" selection-end-column="52" />
           <folding>
-            <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Media/index.html">
+    <entry file="file://$PROJECT_DIR$/app/sass/_complex.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1309">
-          <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="117" selection-end-column="41" />
+        <state relative-caret-position="439">
+          <caret line="136" column="18" selection-start-line="136" selection-start-column="1" selection-end-line="136" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/сurrent_room.html">
+    <entry file="file://$PROJECT_DIR$/app/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="117" column="41" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="41" />
+        <state relative-caret-position="714">
+          <caret line="81" column="79" selection-start-line="81" selection-start-column="79" selection-end-line="81" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-1/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="350" column="23" selection-start-line="350" selection-start-column="23" selection-end-line="350" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-1/Comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-1/common 2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="403" column="46" selection-start-line="403" selection-start-column="46" selection-end-line="403" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2937">
-          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+        <state relative-caret-position="544">
+          <caret line="326" column="19" selection-start-line="326" selection-start-column="19" selection-end-line="326" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_banqueting_hall.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/banqueting_hall.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="271" column="10" selection-start-line="271" selection-start-column="10" selection-end-line="271" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/main.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30940">
+          <caret line="0" column="354187" selection-start-line="0" selection-start-column="354187" selection-end-line="0" selection-end-column="354187" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
